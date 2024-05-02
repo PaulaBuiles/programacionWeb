@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog Personal - Publicaciones</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<header>
+    <div class="header-section">
+        <h1>Mi Blog Personal</h1>
+    </div>
+    <div class="header-section">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="publicaciones.html">Publicaciones</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="publicacion estilo-instagram">
+        <img id="imagen1" src="/img/yo2.jpg" alt="Publicación en una amaca disfrutando del viento y de la naturaleza">
+        <div class="publicacion-info">
+            <h2>Lindo día</h2>
+            <p>El día de hoy fui a una finca con mi familia, como lo dije antes es de las cosas que mas amo, disfrutar y compartir con los demas</p>
+        </div>
+    </section>
+
+    <section class="publicacion estilo-instagram">
+        <img id="imagen2" src="/img/desayuno.jpg" alt="Desayuno gourmet con mi familia">
+        <div class="publicacion-info">
+            <h2>Desayuno con mis papás</h2>
+            <p>Definitivamente no hay nada mas rico que salir a desayunar y compartir de una linda charla y compañia.</p>
+        </div>
+    </section>
+
+    <section class="publicacion estilo-instagram">
+        <img id="imagen3" src="/img/juanca y yo.jpg" alt="Publicacion con mi hermano y yo abarazados en un restaurante rico">
+        <div class="publicacion-info">
+            <h2>Mi hermano y yo</h2>
+            <p>El siempre trata de darme un día diferente, por lo que hoy fuimos a almorzar muy rico, disfruto de la compañia de el en cada momento.</p>
+        </div>
+    </section>
+    <section id="style-table">
+        <div class="tabla-container">
+        <h2>Tabla de Estilos</h2>
+        <div class="tabla-estilos">
+        <table>
+            <tr>
+                <td><button onclick="changeStyle('blanco')">Estilo cabezeras</button></td>
+                <td><button onclick="changeStyle('rosado')">Fondo Rosado</button></td>
+                <td><button onclick="restoreStyle()">Restaurar Estilo</button></td>
+            </tr>
+        </table>
+        </div>
+        </div>
+    </section>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="instagramLink">¡Sígueme en Instagram! <a href="https://www.instagram.com/paulabuiles7/" target="_blank">paulabuiles7</a></p>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2024 Mi Blog Personal. Todos los derechos reservados.</p>
+</footer>
+
+<script src="/js/script.js"></script>
+</body>
+</html>

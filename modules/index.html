@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog Personal - Inicio</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<header>
+    <div class="header-section">
+        <h1>Mi Blog Personal</h1>
+    </div>
+    <div class="header-section">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="publicaciones.html">Publicaciones</a></li>
+                <!-- Agrega más enlaces según sea necesario -->
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <main>
+        <section id="about-me">
+            <h2>Acerca de mí</h2>
+            <img src="/img/yo5.jpg" alt="Foto de Paula">
+            <p>Soy Paula y me apasiona disfrutar día a día lo que hago. En mi blog compartiré mis experiencias y conocimientos sobre mi carrera ingenieria de software y sobre la vida, dando consejos y viendole el lindo lado a la vida. ¡Espero que lo disfrutes!</p>
+        </section>
+
+        <section id="gustos">
+            <h2>Mis gustos</h2>
+            <table>
+                <tr>
+                    <th>Gusto</th>
+                    <th>Descripción</th>
+                </tr>
+                <tr>
+                    <td>Deporte</td>
+                    <td>Me encanta practicar deportes, especialmente el gimnasio y trotar al aire libre.</td>
+                </tr>
+                <tr>
+                    <td>Música</td>
+                    <td>Disfruto de una amplia variedad de géneros musicales, pero mi favorito es el reggaeton, acá te compartir nuevas canciones que quizá te puedan gustar.</td>
+                </tr>
+                <tr>
+                    <td>Amigos y familia</td>
+                    <td>Una de las cosas que más amo hacer es compartir con mis amigos y con mi familia, nada más rico como disfrutar de la compañia de los demás</td>
+                </tr>
+                <tr>
+                    <td>Comida</td>
+                    <td>Probar comidas nuevas y deliciosas también me encanta, nada más rico como darse gusticos de vez en cuando y disfrutar de esto.</td>
+                </tr>
+            </table>
+        </section>
+        <section id="podcasts">
+            <h2>Recomendación: Por qué escuchar podcasts</h2>
+            <p>Los podcasts son una excelente manera de aprender algo nuevo, mantenerte informado y entretenerte mientras haces otras actividades como conducir, hacer ejercicio o limpiar. Además, ofrecen una gran diversidad de temas y formatos que se adaptan a tus intereses y horarios.</p>
+        </section>
+
+        <section id="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MtpTwRWdfkQ?si=v01EuDPuX2VsAjDb" title="Podcast del canal psicología la desnudo - meditación para volver a casa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+    </main>
+
+    <section id="style-table">
+        <div class="tabla-container">
+            <h2>Tabla de Estilos</h2>
+            <div class="tabla-estilos">
+                <table>
+                    <tr>
+                        <td><button onclick="changeStyle('blanco')">Estilo cabezeras</button></td>
+                        <td><button onclick="changeStyle('rosado')">Fondo Rosado</button></td>
+                        <td><button onclick="restoreStyle()">Restaurar Estilo</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mi Blog Personal. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

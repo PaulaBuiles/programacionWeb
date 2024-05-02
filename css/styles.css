@@ -1,0 +1,223 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Estilos para la sección Acerca de mí */
+#about-me {
+    text-align: center;
+    padding: 20px;
+}
+
+#about-me img {
+    border-radius: 50%;
+    width: 200px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la tabla de gustos */
+#gustos {
+    margin-top: 50px;
+}
+
+#gustos table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#gustos th, #gustos td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#gustos th {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para el contenido de la página */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Estilos para las secciones */
+section {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos específicos para el video */
+#video {
+    display: flex;
+    justify-content: center;
+}
+
+#video iframe {
+    width: 50%; /* El video ocupará la mitad del ancho de la página */
+     /* La altura se ajustará automáticamente para mantener la proporción original */
+}
+
+/* Estilos para el contenido de la página */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Estilos para las publicaciones */
+.publicacion {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    align-items: center; /* Alinea verticalmente los elementos */
+}
+
+.publicacion img {
+    width: 200px; /* Ancho de la imagen */
+    height: auto; /* Altura ajustada automáticamente */
+    margin-right: 20px;
+}
+
+.publicacion-info {
+    flex: 1;
+}
+
+.publicacion-info h2 {
+    margin-top: 0;
+    margin-bottom: 10px; /* Espacio inferior entre el título y la descripción */
+}
+
+.publicacion-info p {
+    margin-bottom: 0;
+}
+
+/* Estilos para el encabezado y el pie de página */
+header.blanco, footer.blanco {
+    background-color: pink;
+    color: black;
+}
+
+/* Estilos para el contenedor de la tabla y los botones */
+.tabla-container {
+    text-align: center; /* Centra el contenido horizontalmente */
+    margin-bottom: 20px; /* Espacio inferior entre la tabla y el contenido */
+}
+
+/* Estilos para la tabla de estilos */
+.tabla-estilos table {
+    border-collapse: collapse;
+    width: auto;
+    background-color: #f2f2f2; /* Color de fondo de la tabla */
+    border-radius: 5px; /* Bordes redondeados */
+    margin: 0 auto; /* Centra la tabla horizontalmente */
+}
+
+.tabla-estilos table td {
+    padding: 10px;
+    text-align: center; /* Centra el contenido de las celdas */
+}
+
+
+/* Estilos para los botones de estilo */
+.boton-estilo {
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+.boton-estilo:hover {
+    background-color: #45a049; /* Cambia el color de fondo al pasar el mouse */
+}
+
+/* Estilos para la ventana modal */
+.modal {
+    display: none; /* Oculta la ventana modal por defecto */
+    position: fixed; /* Permite que la ventana modal flote sobre el contenido */
+    z-index: 1; /* Establece la capa más alta */
+    left: 0;
+    top: 0;
+    width: 100%; /* Toma todo el ancho de la pantalla */
+    height: 100%; /* Toma toda la altura de la pantalla */
+    overflow: auto; /* Permite hacer scroll si la ventana modal es demasiado grande */
+    background-color: rgb(0,0,0); /* Color de fondo oscuro */
+    background-color: rgba(0,0,0,0.4); /* Color de fondo oscuro con transparencia */
+}
+
+/* Estilos para el contenido de la ventana modal */
+.modal-content {
+    background-color: #fefefe; /* Color de fondo de la ventana modal */
+    margin: 15% auto; /* Margen en la parte superior e inferior y centrado horizontalmente */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Ancho del contenido */
+}
+
+/* Estilos para el botón de cerrar */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
